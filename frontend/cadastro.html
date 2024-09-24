@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Mercadorias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Cadastrar Mercadoria</h2>
+        <form id="product-form">
+            <input type="text" id="barcode" placeholder="Código de Barras" required>
+            <input type="text" id="description" placeholder="Descrição" required>
+            <input type="text" id="ncm" placeholder="NCM" required>
+            <input type="number" id="purchasePrice" placeholder="Preço de Compra" required>
+            <input type="number" id="salePrice" placeholder="Preço de Venda" required>
+            <input type="number" id="salePercent" placeholder="Percentagem de Venda" required>
+            <input type="number" id="stock" placeholder="Estoque" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <div id="product-error" class="error-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

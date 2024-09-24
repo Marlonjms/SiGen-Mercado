@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Caixa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="caixa-container">
+        <h2>Sistema de Caixa</h2>
+        <form id="sale-form">
+            <input type="number" id="productId" placeholder="ID do Produto" required>
+            <input type="number" id="quantity" placeholder="Quantidade" required>
+            <button type="submit">Registrar Venda</button>
+        </form>
+        <div id="sale-error" class="error-message"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
